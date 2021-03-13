@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Keywords" content="ajuda help justsoft winpolicy win policy">
+<meta name="Description" content="Ajuda do Justsoft WinPolicy, o software de proteção da Justsoft Informática.">
+<meta name="Author" content="Justsoft Informática Ltda.">
+<meta name="Generator" content="Quanta Plus">
+<title>Justsoft WinPolicy</title>
+<link rel="StyleSheet" href="winpolicy.css" type="text/css">
+</head>
+
+<body>
+
+<h1>Parâmetros de linha de comando</h1>
+
+<p>Você pode fazer algumas operações no WinPolicy através de linha de comando, como por exemplo, carregar um perfil. Abaixo, uma tabela com os parâmetros de linha de comando:</p>
+
+<table border="1">
+<tr>
+	<td>/load &quot;arquivo.wpp&quot;</td>
+	<td>Carrega um arquivo de perfil no WinPolicy e aplica suas restrições.<br><br>Exemplo: &quot;C:\Arquivos de Programas\Justsoft WinPolicy\WinPolicy.exe /load C:\perfil.wpp&quot;</td>
+</tr>
+<tr>
+	<td>/loadusers</td>
+	<td>Usado com o <strong>/load</strong>, carrega também as configurações de usuários, caso estejam salvas no arquivo de perfil.</td>
+</tr>
+<tr>
+	<td>/allusers</td>
+	<td>Usado com o <strong>/load</strong>, carrega as restrições do arquivo de perfil e aplica em todos os usuários do Windows.</td>
+</tr>
+<tr>
+	<td>/silent</td>
+	<td>Usado com o <strong>/load</strong>, efetua todas as operações da linha de comando sem exibir mensagens de notificação.</td>
+</tr>
+<tr>
+	<td>/pwd senha</td>
+	<td>Usado com o <strong>/load</strong>, utiliza a senha especificada na linha de comando para aplicar o perfil. <strong>ATENÇÃO: </strong>Este parâmetro foi adicionado a pedido de alguns usuários. O uso dele em arquivos de lotes (.bat) pode permitir que outros usuários do computador vejam a senha do WinPolicy.<br><br>Exemplo, a senha é &quot;xyz&quot;: &quot;C:\Arquivos de Programas\Justsoft WinPolicy\WinPolicy.exe /load C:\perfil.wpp /pwd xyz&quot;</td>
+</tr>
+<tr>
+	<td>/setpwd</td>
+	<td>Abre uma janela de texto para alteração da senha do usuário &quot;admin&quot;.</td>
+</tr>
+<tr>
+	<td>/setpwdf</td>
+	<td>Abre uma janela de texto para alteração da senha do usuário &quot;admin&quot;. Se uma senha já tiver sido configurada, nada acontecerá.</td>
+</tr>
+</table>
+
+<p>Exemplo com todos os parâmetros: caso deseje carregar o perfil em &quot;C:\Grupo1.wpp&quot;, carregando também os dados dos usuários cadastrados no arquivo de perfil, aplicando as restrições em todos os usuários do Windows, sem mostrar nenhuma caixa de confirmação e especificando a senha pela linha de comando:</p>
+
+<p><strong>&quot;C:\Arquivos de Programas\Justsoft WinPolicy\WinPolicy.exe&quot; /load &quot;C:\Grupo1.wpp&quot; /loadusers /allusers /silent /pwd biscoito</strong></p>
+
+<p>No exemplo acima, a senha do WinPolicy é &quot;biscoito&quot;.</p>
+
+</body>
+</html>

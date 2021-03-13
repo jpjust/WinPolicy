@@ -1,0 +1,25 @@
+// Version info resource file
+1 VERSIONINFO
+FILEVERSION 1,1,0,0
+PRODUCTVERSION 1,1,0,0
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "04161250"
+	{
+		VALUE "Comments", "Desenvolvido pela Justsoft Informática Ltda."
+		VALUE "CompanyName", "Justsoft Informática Ltda."
+		VALUE "FileDescription", "Software de proteção ao Windows da Justsoft."
+		VALUE "FileVersion", "1.1 Enterprise"
+		VALUE "LegalCopyright", "Copyright (c) 2006 - 2007 Justsoft Informática Ltda."
+		VALUE "ProductName", "Justsoft WinPolicy Enterprise"
+		VALUE "ProductVersion", "1.1 Enterprise"
+	}
+}
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0416, 0x1250
+}
+}

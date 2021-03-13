@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="Controller.cdt.managedbuild.target.gnu.exe.300485374" name="Executable (Gnu)" projectType="cdt.managedbuild.target.gnu.exe">
+<configuration artifactName="controller-bin" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.exe.release.1960896786" name="Release_Linux" parent="cdt.managedbuild.config.gnu.exe.release" postbuildStep="cp -af ../resources/img ./">
+<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.1438833512" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.1290868081" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.815322635" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+<option id="gnu.cpp.compiler.option.other.other.116038459" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 `wx-config --cxxflags`" valueType="string"/>
+<option id="gnu.cpp.compiler.option.include.paths.1437144389" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="../include"/>
+<listOptionValue builtIn="false" value="../../WPNP"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/include"/>
+</option>
+</tool>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.exe.release.1184049638" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.2007533387" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release">
+<option id="gnu.cpp.link.option.flags.2139229508" superClass="gnu.cpp.link.option.flags" value="`wx-config --libs`" valueType="string"/>
+<option id="gnu.cpp.link.option.libs.1147456676" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="rsatool"/>
+<listOptionValue builtIn="false" value="WPNP"/>
+</option>
+<option id="gnu.cpp.link.option.paths.1067533389" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="../../WPNP/Release_Linux"/>
+</option>
+</tool>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.exe.release.926214087" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release"/>
+<macros/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="exe" artifactName="Controller" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.exe.release.1995013914" name="Release_Win32" parent="cdt.managedbuild.config.gnu.exe.release" postbuildStep="mkdir images &amp;&amp; cp -af ../../WinPolicy/resources/images/*.png ./images/" prebuildStep="windres -o ControllerRes.o ../resources/Controller.rc -I&quot;C:\wxMSW-2.8\include\wx-2.8&quot;">
+<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.575524011" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.1914492143" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.112925404" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+<option id="gnu.cpp.compiler.option.other.other.160132339" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -mthreads" valueType="string"/>
+<option id="gnu.cpp.compiler.option.include.paths.1852813221" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.8/lib/wx/include/msw-ansi-release-2.8"/>
+<listOptionValue builtIn="false" value="c:/wxMSW-2.8/include/wx-2.8"/>
+<listOptionValue builtIn="false" value="../include"/>
+<listOptionValue builtIn="false" value="../../WPNP"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/include"/>
+</option>
+<option id="gnu.cpp.compiler.option.preprocessor.def.845768405" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="__WXMSW__"/>
+<listOptionValue builtIn="false" value="WXUSINGDLL=1"/>
+</option>
+<option id="gnu.cpp.compiler.option.optimization.flags.842038201" superClass="gnu.cpp.compiler.option.optimization.flags" value="-march=i586 -mtune=i686" valueType="string"/>
+<option id="gnu.cpp.compiler.exe.release.option.optimization.level.460431983" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+<option id="gnu.cpp.compiler.exe.release.option.debugging.level.1139016249" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+</tool>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.exe.release.1389736326" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.262092772" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release">
+<option id="gnu.cpp.link.option.flags.453922182" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-mthreads  -Wl,--subsystem,windows -mwindows" valueType="string"/>
+<option id="gnu.cpp.link.option.libs.1133869069" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="rsatool"/>
+<listOptionValue builtIn="false" value="WPNP"/>
+<listOptionValue builtIn="false" value="wx_base-2.8"/>
+<listOptionValue builtIn="false" value="wx_base_net-2.8"/>
+<listOptionValue builtIn="false" value="wx_msw_core-2.8"/>
+<listOptionValue builtIn="false" value="wxTreeMultiCtrl"/>
+</option>
+<option id="gnu.cpp.link.option.paths.1975507382" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.8/lib"/>
+<listOptionValue builtIn="false" value="../../WPNP/Release_Win32"/>
+</option>
+<option id="gnu.cpp.link.option.shared.435528971" superClass="gnu.cpp.link.option.shared" value="false" valueType="boolean"/>
+<option id="gnu.cpp.link.option.strip.350006831" superClass="gnu.cpp.link.option.strip" value="false" valueType="boolean"/>
+<option id="gnu.cpp.link.option.userobjs.336687346" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
+<listOptionValue builtIn="false" value="ControllerRes.o"/>
+</option>
+</tool>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.exe.release.853843632" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release"/>
+<macros/>
+</toolChain>
+<resourceConfiguration exclude="true" id="cdt.managedbuild.config.gnu.exe.release.1995013914.534933247" name="ControllerRes.rc" rcbsApplicability="disable" resourcePath="/Controller/resources/Controller.rc" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.112925404./Controller/ControllerRes.rc">
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.112925404./Controller/ControllerRes.rc" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.112925404"/>
+</resourceConfiguration>
+</configuration>
+<configuration artifactExtension="exe" artifactName="Controller" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.exe.release.1099971821" name="Debug_Win32" parent="cdt.managedbuild.config.gnu.exe.release" postbuildStep="cp -af ../resources/img ./" prebuildStep="windres -o ControllerRes.o ../Controller.rc -I&quot;C:\wxMSW-2.6\include\wx-2.6&quot;">
+<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.2004626009" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.2108966500" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1593016115" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+<option id="gnu.cpp.compiler.option.other.other.2008840096" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -mthreads" valueType="string"/>
+<option id="gnu.cpp.compiler.option.include.paths.1914794835" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.6/lib/wx/include/msw-ansi-release-2.6"/>
+<listOptionValue builtIn="false" value="c:/wxMSW-2.6/include/wx-2.6"/>
+<listOptionValue builtIn="false" value="../include"/>
+<listOptionValue builtIn="false" value="../../WPNP"/>
+<listOptionValue builtIn="false" value="../../WinPolicy"/>
+</option>
+<option id="gnu.cpp.compiler.option.preprocessor.def.1806917983" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="_DEBUG_"/>
+<listOptionValue builtIn="false" value="__WXMSW__"/>
+<listOptionValue builtIn="false" value="WXUSINGDLL=1"/>
+<listOptionValue builtIn="false" value="NO_GCC_PRAGMA"/>
+</option>
+<option id="gnu.cpp.compiler.option.optimization.flags.1960450207" name="Other optimization flags" superClass="gnu.cpp.compiler.option.optimization.flags" value="" valueType="string"/>
+<option id="gnu.cpp.compiler.exe.release.option.optimization.level.302141268" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+<option id="gnu.cpp.compiler.exe.release.option.debugging.level.206156567" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.default" valueType="enumerated"/>
+</tool>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.exe.release.7930159" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.1237848804" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release">
+<option id="gnu.cpp.link.option.flags.850305556" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-mthreads  -Wl,--subsystem,windows -mwindows" valueType="string"/>
+<option id="gnu.cpp.link.option.libs.2091933354" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="rsatool"/>
+<listOptionValue builtIn="false" value="WPNP"/>
+<listOptionValue builtIn="false" value="wx_base-2.6"/>
+<listOptionValue builtIn="false" value="wx_base_net-2.6"/>
+<listOptionValue builtIn="false" value="wx_msw_core-2.6"/>
+</option>
+<option id="gnu.cpp.link.option.paths.251691585" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.6/lib"/>
+<listOptionValue builtIn="false" value="../../WPNP/Debug_Win32"/>
+</option>
+<option id="gnu.cpp.link.option.shared.836018809" name="Shared (-shared)" superClass="gnu.cpp.link.option.shared" value="false" valueType="boolean"/>
+<option id="gnu.cpp.link.option.strip.876890728" name="Omit all symbol information (-s)" superClass="gnu.cpp.link.option.strip" value="false" valueType="boolean"/>
+<option id="gnu.cpp.link.option.userobjs.1091153656" name="Other objects" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
+<listOptionValue builtIn="false" value="ControllerRes.o"/>
+</option>
+</tool>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.exe.release.1699622901" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release"/>
+<macros/>
+</toolChain>
+<resourceConfiguration exclude="true" id="cdt.managedbuild.config.gnu.exe.release.1099971821.914973241" name="ControllerRes.rc" rcbsApplicability="disable" resourcePath="/Controller/resources/Controller.rc" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.112925404.363235040">
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.112925404.363235040" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1593016115"/>
+</resourceConfiguration>
+</configuration>
+<configuration artifactName="controller-bin" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.exe.release.1699651722" name="Debug_Linux" parent="cdt.managedbuild.config.gnu.exe.release" postbuildStep="cp -af ../resources/img ./">
+<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.1331203219" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.2000225968" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.2073162289" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+<option id="gnu.cpp.compiler.option.other.other.1229035833" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 `wx-config --cxxflags`" valueType="string"/>
+<option id="gnu.cpp.compiler.option.include.paths.1869062511" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="../include"/>
+<listOptionValue builtIn="false" value="../../WPNP"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/include"/>
+</option>
+<option id="gnu.cpp.compiler.exe.release.option.optimization.level.1982788368" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+<option id="gnu.cpp.compiler.exe.release.option.debugging.level.109120404" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.default" valueType="enumerated"/>
+</tool>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.exe.release.1900328221" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.1158599870" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release">
+<option id="gnu.cpp.link.option.flags.377156837" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="`wx-config --libs`" valueType="string"/>
+<option id="gnu.cpp.link.option.libs.78134308" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="rsatool"/>
+<listOptionValue builtIn="false" value="WPNP"/>
+</option>
+<option id="gnu.cpp.link.option.paths.1184510950" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="../../WPNP/Debug_Linux"/>
+</option>
+</tool>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.exe.release.480548978" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release"/>
+<macros/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

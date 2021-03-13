@@ -1,0 +1,5 @@
+#include "wx/msw/wx.rc"
+#include "VersionInfo.rc"
+
+wxDEFAULT_FRAME		ICON	DISCARDABLE "../../WinPolicy/resources/images/controller.ico"
+wxICON				ICON	DISCARDABLE "../../WinPolicy/resources/images/controller.ico"

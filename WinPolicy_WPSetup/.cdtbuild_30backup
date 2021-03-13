@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.0.0?>
+
+<ManagedProjectBuildInfo>
+<project id="WPSetup.cdt.managedbuild.target.gnu.cygwin.exe.289506313" name="Executable (Gnu on Windows)" projectType="cdt.managedbuild.target.gnu.cygwin.exe">
+<configuration artifactExtension="exe" artifactName="WPSetup" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.cygwin.exe.release.1359355014" name="Release" parent="cdt.managedbuild.config.gnu.cygwin.exe.release" prebuildStep="windres -o WPSetupRes.o ../WPSetup.rc -Ic:/wxMSW-2.6/include/wx-2.6">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.release.1329455631" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.release">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.1677875951" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release.1009966430" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release">
+<option id="gnu.cpp.compiler.option.preprocessor.def.1133314194" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="__WXMSW__"/>
+<listOptionValue builtIn="false" value="WXUSINGDLL=1"/>
+<listOptionValue builtIn="false" value="NO_GCC_PRAGMA"/>
+</option>
+<option id="gnu.cpp.compiler.option.include.paths.787071500" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.6/lib/wx/include/msw-ansi-release-2.6"/>
+<listOptionValue builtIn="false" value="c:/wxMSW-2.6/include/wx-2.6"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/include"/>
+<listOptionValue builtIn="false" value="../../AutoLock"/>
+</option>
+<option id="gnu.cpp.compiler.option.other.other.1000680524" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -mthreads" valueType="string"/>
+<option id="gnu.cpp.compiler.option.optimization.flags.444320659" superClass="gnu.cpp.compiler.option.optimization.flags" value="-march=i586 -mtune=i686" valueType="string"/>
+<option id="gnu.cpp.compiler.cygwin.exe.release.option.optimization.level.1141978489" superClass="gnu.cpp.compiler.cygwin.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+</tool>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release.844492694" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release.1061990266" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release">
+<option id="gnu.cpp.link.option.libs.1893668378" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="rsatool"/>
+<listOptionValue builtIn="false" value="userenv"/>
+<listOptionValue builtIn="false" value="wx_msw_core-2.6"/>
+<listOptionValue builtIn="false" value="wx_base-2.6"/>
+</option>
+<option id="gnu.cpp.link.option.paths.2109125699" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.6/lib"/>
+</option>
+<option id="gnu.cpp.link.option.userobjs.331368445" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
+<listOptionValue builtIn="false" value="WPSetupRes.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/jswinreg.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/AppBase.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/PwdMgr.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/Tweaks.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksAutoLock.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksMisc.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksNetwork.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksPrograms.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksSystem.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksWindows.o"/>
+</option>
+<option id="gnu.cpp.link.option.flags.684947541" superClass="gnu.cpp.link.option.flags" value="-mthreads  -Wl,--subsystem,windows -mwindows" valueType="string"/>
+</tool>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.release.1433831361" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.release"/>
+<macros/>
+</toolChain>
+</configuration>
+</project>
+</ManagedProjectBuildInfo>

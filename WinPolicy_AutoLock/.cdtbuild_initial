@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="AutoLock.cdt.managedbuild.target.gnu.cygwin.exe.1675395954" name="Executable (Gnu on Windows)" projectType="cdt.managedbuild.target.gnu.cygwin.exe">
+<configuration artifactExtension="exe" artifactName="AutoLock" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.631865619" name="Release" parent="cdt.managedbuild.config.gnu.cygwin.exe.debug" prebuildStep="windres -o AutoLockRes.o ../AutoLock.rc -Ic:/wxMSW-2.8/include/wx-2.8">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug.1717231736" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.1066507033" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.1078039747" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug">
+<option id="gnu.cpp.compiler.option.preprocessor.def.782064153" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="__WXMSW__"/>
+<listOptionValue builtIn="false" value="WXUSINGDLL=1"/>
+</option>
+<option id="gnu.cpp.compiler.option.include.paths.1240027643" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.8/lib/wx/include/msw-ansi-release-2.8"/>
+<listOptionValue builtIn="false" value="c:/wxMSW-2.8/include/wx-2.8"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/include"/>
+<listOptionValue builtIn="false" value="../../WPLocker"/>
+<listOptionValue builtIn="false" value="../../WPService"/>
+</option>
+<option id="gnu.cpp.compiler.option.other.other.7407304" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -mthreads" valueType="string"/>
+<option id="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level.1607875027" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+<option id="gnu.cpp.compiler.option.optimization.flags.827737426" superClass="gnu.cpp.compiler.option.optimization.flags" value="-march=i586 -mtune=i686" valueType="string"/>
+<option id="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level.518936682" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+</tool>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.1400542242" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.248556235" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug">
+<option id="gnu.cpp.link.option.libs.918106053" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="rsatool"/>
+<listOptionValue builtIn="false" value="wx_base-2.8"/>
+<listOptionValue builtIn="false" value="wx_msw_core-2.8"/>
+<listOptionValue builtIn="false" value="wx_msw_adv-2.8"/>
+</option>
+<option id="gnu.cpp.link.option.paths.1050580972" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.8/lib"/>
+</option>
+<option id="gnu.cpp.link.option.flags.1177068270" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-mthreads  -Wl,--subsystem,windows -mwindows" valueType="string"/>
+<option id="gnu.cpp.link.option.userobjs.1265088385" name="Other objects" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
+<listOptionValue builtIn="false" value="AutoLockRes.o"/>
+<listOptionValue builtIn="false" value="../../WPLocker/Release/DialogWarning.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/jswinreg.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/AppBase.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/PwdMgr.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/UserMgr.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksAutoLock.o"/>
+</option>
+</tool>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.1878013785" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug"/>
+<macros/>
+</toolChain>
+</configuration>
+</project>
+</ManagedProjectBuildInfo>

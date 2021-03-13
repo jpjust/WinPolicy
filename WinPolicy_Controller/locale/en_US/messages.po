@@ -1,0 +1,803 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-13 20:47-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/Agent.cpp:206
+msgid "Conectado."
+msgstr "Connected."
+
+#: ../src/Agent.cpp:209
+msgid "Falha na conexão!"
+msgstr "Connection failed!"
+
+#: ../src/Agent.cpp:212 ../src/Agent.cpp:336 ../src/Agent.cpp:395
+#, c-format
+msgid "Removendo tarefas deste agente... %u removida(s)."
+msgstr "Removing tasks of this agent... %u tasks removed."
+
+#: ../src/Agent.cpp:333
+msgid "Erro ao enviar mensagem!"
+msgstr "Error sending message!"
+
+#: ../src/Agent.cpp:392
+msgid "Conexão perdida."
+msgstr "Connection lost."
+
+#: ../src/Agent.cpp:439
+msgid "Enviando senha..."
+msgstr "Sending password..."
+
+#: ../src/Agent.cpp:446
+msgid "Senha inválida!"
+msgstr "Invalid password!"
+
+#: ../src/Agent.cpp:455
+msgid "Senha OK!"
+msgstr "Password OK!"
+
+#: ../src/Agent.cpp:474
+msgid "Nenhuma senha definida no agente, impossível conectar."
+msgstr "Agent has no password set, connection can't be estabilished."
+
+#: ../src/DialogAbout.cpp:28
+msgid ""
+"Copyright (c) 2006 Justsoft Informática Ltda.\n"
+"Todos os direitos reservados."
+msgstr ""
+"Copyright (c) 2006 Justsoft Informática Ltda.\n"
+"All rights reserved."
+
+#: ../src/DialogAbout.cpp:30
+msgid ""
+"O Justsoft WinPolicy Controller é um software de distribuição gratuita\n"
+"(Freeware). Você pode distribuí-lo e instalá-lo em um número infinito\n"
+"de computadores, bastando apenas obedecer às leis de copyright que o\n"
+"protegem."
+msgstr ""
+"Justsoft WinPolicy Controller is free for use and distribution\n"
+"(Freeware). You can distribute and install it in an infinite number\n"
+"of computers, only paying attention to its copyright laws that\n"
+"protect it."
+
+#: ../src/DialogAbout.cpp:34
+msgid ""
+"MS-DOS®, Windows®, Internet Explorer® e MSN Messenger® são\n"
+"marcas registradas da Microsoft Corp."
+msgstr ""
+"MS-DOS®, Windows®, Internet Explorer® and MSN Messenger® are\n"
+"trademarks of Microsoft Corp."
+
+#: ../src/DialogAbout.cpp:48
+msgid "Contrato de Licença Justsoft"
+msgstr "Justsoft License Contract"
+
+#: ../src/DialogAbout.cpp:50
+msgid ""
+"O Justsoft WinPolicy usa os seguintes softwares:\n"
+"\n"
+"1. wxWidgets 2.6.3\n"
+"wxWidgets é uma framework Open Source e multiplataforma para criação de "
+"interfaces gráficas em C++.\n"
+"http://www.wxwidgets.org/\n"
+"\n"
+"2. GNU Multiple Precision Arithmetic Library 4.2.1\n"
+"GMP é uma biblioteca livre para aritimética de precisão arbitrária, operando "
+"em inteiros com sinal, números racionais e pontos flutuantes. Não há limites "
+"para a precisão, a não ser a quantidade de memória da máquina.\n"
+"http://www.swox.com/gmp\n"
+"\n"
+"3. RSA Tool 0.6\n"
+"RSA Tool é uma biblioteca livre utilizada para criptografia RSA. "
+"Desenvolvida por João Paulo Just.\n"
+"jp@justsoft.com.br"
+msgstr ""
+"Justsoft WinPolicy uses the following softwares:\n"
+"\n"
+"1. wxWidgets 2.6.3\n"
+"wxWidgets is an Open Source and cross-platform framework for creating C++ "
+"GUI applicatioins.\n"
+"http://www.wxwidgets.org/\n"
+"\n"
+"2. GNU Multiple Precision Arithmetic Library 4.2.1\n"
+"GMP is a free library for arbitrary precision arithmetic, operating on "
+"signed integers, rational numbers, and floating point numbers. There is no "
+"practical limit to the precision except the ones implied by the available "
+"memory in the machine GMP runs on.\n"
+"http://www.swox.com/gmp\n"
+"\n"
+"3. RSA Tool 0.6\n"
+"RSA Tool is a free library used for RSA criptography.\n"
+"Developed by João Paulo Just.\n"
+"jp@justsoft.com.br"
+
+#: ../src/DialogLanguage.cpp:23
+msgid ""
+"Escolha o seu idioma na caixa de seleção\n"
+"abaixo e clique em \"OK\"."
+msgstr ""
+"Choose your language from the combobox\n"
+"below and click \"OK\"."
+
+#: ../src/DialogLanguage.cpp:64
+msgid ""
+"O novo idioma entrará em vigor na próxima vez que você iniciar o Controller."
+msgstr ""
+"The new language will be applyied at the next time you start Controller."
+
+#: ../src/DialogLicense.cpp:53
+msgid "Licença"
+msgstr "License"
+
+#: ../src/DialogLicense.cpp:58
+msgid "Fechar"
+msgstr "Close"
+
+#: ../src/FrameController.cpp:99
+msgid "&Adicionar PC\tCTRL+A"
+msgstr "&Add PC\tCTRL+A"
+
+#: ../src/FrameController.cpp:100
+msgid "&Remover PC\tCTRL+D"
+msgstr "&Remove PC\tCTRL+D"
+
+#: ../src/FrameController.cpp:101
+msgid "A&tualizar lista\tF5"
+msgstr "R&efresh list\tF5"
+
+#: ../src/FrameController.cpp:103
+msgid "&Sair"
+msgstr "E&xit"
+
+#: ../src/FrameController.cpp:105
+msgid "&Bloquear PCs\tCTRL+L"
+msgstr "&Lock PCs\tCTRL+L"
+
+#: ../src/FrameController.cpp:107
+msgid "&Desligar PCs\tCTRL+S"
+msgstr "&Shutdown PCs\tCTRL+S"
+
+#: ../src/FrameController.cpp:108
+msgid "&Reiniciar PCs\tCTRL+R"
+msgstr "&Reboot PCs\tCTRL+R"
+
+#: ../src/FrameController.cpp:109
+msgid "&Logoff remoto\tCTRL+O"
+msgstr "Remote l&ogoff\tCTRL+O"
+
+#: ../src/FrameController.cpp:111
+msgid "&Executar programa remotamente\tCTRL+X"
+msgstr "R&un program remotely\tCTRL+X"
+
+#: ../src/FrameController.cpp:114
+msgid "&Obter restrições\tF7"
+msgstr "&Get restrictions\tF7"
+
+#: ../src/FrameController.cpp:115
+msgid "&Enviar restrições\tF8"
+msgstr "&Send restrictions\tF8"
+
+#: ../src/FrameController.cpp:116 ../src/FrameController.cpp:208
+#: ../src/PanelMisc.cpp:19
+msgid "Outros"
+msgstr "Others"
+
+#: ../src/FrameController.cpp:118
+msgid "&Parar tarefas"
+msgstr "&Stop tasks"
+
+#: ../src/FrameController.cpp:119
+msgid "Parar &todas as tarefas"
+msgstr "&Stop all tasks"
+
+#: ../src/FrameController.cpp:121
+msgid "Ajuda do &Controller\tF1"
+msgstr "&Controller Help\tF1"
+
+#: ../src/FrameController.cpp:122
+msgid "Ajuda do &NetModule\tF2"
+msgstr "&NetModule Help\tF2"
+
+#: ../src/FrameController.cpp:123
+msgid "Ajuda do W&inPolicy\tF3"
+msgstr "W&inPolicy Help\tF3"
+
+#: ../src/FrameController.cpp:125
+msgid "WinPolicy na &Web\tF4"
+msgstr "WinPolicy on the &Web\tF4"
+
+#: ../src/FrameController.cpp:126
+msgid "&Ativar NetModule\tF5"
+msgstr "&Activate NetModule\tF5"
+
+#: ../src/FrameController.cpp:128
+msgid "&Selecionar idioma\tF6"
+msgstr "&Choose language\tF6"
+
+#: ../src/FrameController.cpp:130
+msgid "&Sobre\tF12"
+msgstr "&About\tF12"
+
+#: ../src/FrameController.cpp:132
+msgid "&Lista"
+msgstr "&List"
+
+#: ../src/FrameController.cpp:133
+msgid "&Controle"
+msgstr "&Control"
+
+#: ../src/FrameController.cpp:134
+msgid "&Ajuda"
+msgstr "&Help"
+
+#: ../src/FrameController.cpp:152
+msgid "Adiciona um agente na lista estática"
+msgstr "Adds an agent into the static list"
+
+#: ../src/FrameController.cpp:152
+msgid "Adicionar PC"
+msgstr "Add PC"
+
+#: ../src/FrameController.cpp:153
+msgid "Remove o(s) agente(s) selecionado(s)"
+msgstr "Removes the selected agents"
+
+#: ../src/FrameController.cpp:153
+msgid "Remover PC"
+msgstr "Remove PC"
+
+#: ../src/FrameController.cpp:154
+msgid "Atualiza a lista dinâmica com os agentes na rede"
+msgstr "Refreshes the dynamic list with the agents in the network"
+
+#: ../src/FrameController.cpp:154
+msgid "Atualizar lista"
+msgstr "Refresh list"
+
+#: ../src/FrameController.cpp:156
+msgid "Exibe um menu com outras opções disponíveis"
+msgstr "Shows a menu with another available options"
+
+#: ../src/FrameController.cpp:156
+msgid "Outras opções"
+msgstr "Other options"
+
+#: ../src/FrameController.cpp:158
+msgid "Envia restrições para o(s) agente(s) selecionado(s)"
+msgstr "Sends restrictions to the selected agents"
+
+#: ../src/FrameController.cpp:158
+msgid "Enviar restrições"
+msgstr "Send restrictions"
+
+#: ../src/FrameController.cpp:159
+msgid "Obter restrições"
+msgstr "Get restrictions"
+
+#: ../src/FrameController.cpp:159
+msgid "Obtém restrições do agente selecionado"
+msgstr "Gets restrictions from the selected agent"
+
+#: ../src/FrameController.cpp:161
+msgid "Parar"
+msgstr "Stop"
+
+#: ../src/FrameController.cpp:161
+msgid "Pára tarefas em espera do(s) agente(s) selecionado(s)"
+msgstr "Stops tasks of the selected agents"
+
+#: ../src/FrameController.cpp:162
+msgid "Parar todas"
+msgstr "Stop all"
+
+#: ../src/FrameController.cpp:162
+msgid "Pára tarefas em espera de todos os agentes"
+msgstr "Stops tasks of all agents"
+
+#: ../src/FrameController.cpp:168
+msgid "Tarefas restantes: 0"
+msgstr "Remaining tasks: 0"
+
+#: ../src/FrameController.cpp:171
+msgid "Lista dinâmica"
+msgstr "Dynamic list"
+
+#: ../src/FrameController.cpp:172
+msgid "Lista estática"
+msgstr "Static list"
+
+#: ../src/FrameController.cpp:179
+msgid "Todos"
+msgstr "All"
+
+#: ../src/FrameController.cpp:180
+msgid "Nenhum"
+msgstr "None"
+
+#: ../src/FrameController.cpp:183
+msgid "Senha de conexão dos agentes:"
+msgstr "Agents connection password:"
+
+#: ../src/FrameController.cpp:192 ../src/PanelUsers.cpp:67
+msgid "Alterar senha"
+msgstr "Change password"
+
+#: ../src/FrameController.cpp:203 ../src/PanelSystem.cpp:23
+msgid "Sistema"
+msgstr "System"
+
+#: ../src/FrameController.cpp:204 ../src/PanelWindows.cpp:22
+msgid "Windows"
+msgstr "Windows"
+
+#: ../src/FrameController.cpp:205 ../src/PanelNetwork.cpp:22
+msgid "Rede"
+msgstr "Network"
+
+#: ../src/FrameController.cpp:206 ../src/PanelPrograms.cpp:26
+msgid "Programas"
+msgstr "Programs"
+
+#: ../src/FrameController.cpp:207 ../src/PanelLocking.cpp:24
+msgid "Bloqueio"
+msgstr "Locking"
+
+#: ../src/FrameController.cpp:209 ../src/PanelUsers.cpp:26
+msgid "Usuários"
+msgstr "Users"
+
+#: ../src/FrameController.cpp:363 ../src/FrameController.cpp:634
+msgid ""
+"Antes de enviar as restrições, digite a senha dos agentes no campo \"Senha "
+"de conexão dos agentes\"."
+msgstr ""
+"Before sending restrictions, type the agents password in the field \"Agents "
+"connection password\"."
+
+#: ../src/FrameController.cpp:370
+msgid "Digite a nova senha para os agentes:"
+msgstr "Type a new password for the agents:"
+
+#: ../src/FrameController.cpp:374
+msgid "Confirme a nova senha:"
+msgstr "Confirm the new password:"
+
+#: ../src/FrameController.cpp:380
+msgid "As senhas digitadas não coincidem."
+msgstr "The typed password aren't equal."
+
+#: ../src/FrameController.cpp:414 ../src/FrameController.cpp:418
+msgid "Não disponível ainda."
+msgstr "Not available yet."
+
+#: ../src/FrameController.cpp:454
+msgid ""
+"Digite o comando, caminho do programa ou arquivo que deseja executar no "
+"computador remoto.\n"
+"\n"
+"Ex.: notepad.exe ou \"C:\\Arquivos de Programas\\Justsoft WinPolicy"
+"\\WinPolicy.exe\"\n"
+"\n"
+"Se quiser executar um programa ou arquivo neste computador, copie o "
+"executável ou arquivo para\n"
+"uma pasta compartilhada e execute como no exemplo abaixo:\n"
+"\n"
+"\\\\Computador\\compartilhamento\\programa.exe"
+msgstr ""
+"Type the command, executable path or filename which you want to run in the "
+"remote computer.\n"
+"\n"
+"Ex.: notepad.exe or \"C:\\Program Files\\Justsoft WinPolicy\\WinPolicy.exe"
+"\"\n"
+"\n"
+"If you want to run an executable or file which is located in this computer, "
+"copy the executable or file to\n"
+"a shared folder and type its location just like the example below:\n"
+"\n"
+"\\\\Computer\\share\\program.exe"
+
+#: ../src/FrameController.cpp:493
+msgid "Digite o endereço IP do computador:"
+msgstr "Type the IP address of the computer:"
+
+#: ../src/FrameController.cpp:498
+msgid "O endereço digitado é inválido ou não pôde ser encontrado."
+msgstr "The address you typed is invalid or couldn't be found."
+
+#: ../src/FrameController.cpp:502
+msgid "Digite um nome ou descrição para este agente:"
+msgstr "Type a name or description for this agent:"
+
+#: ../src/FrameController.cpp:749
+msgid "Agente incompatível: "
+msgstr "Agent is not compatible: "
+
+#: ../src/FrameController.cpp:771 ../src/FrameController.cpp:778
+msgid "Mensagem UDP desconhecida"
+msgstr "Unknown UDP message"
+
+#: ../src/FrameController.cpp:781 ../src/FrameController.cpp:788
+msgid ""
+"Antes de obter as restrições, digite a senha dos agentes no campo \"Senha de "
+"conexão dos agentes\"."
+msgstr ""
+"Before getting restrictions, type the password of the agent in the field "
+"\"Agents connection password\"."
+
+#: ../src/FrameController.cpp:804 ../src/FrameController.cpp:811
+msgid "Antes de continuar, selecione com o mouse um computador na lista."
+msgstr "Before go on, select a computer from the list with your mouse."
+
+#: ../src/FrameController.cpp:808 ../src/FrameController.cpp:815
+msgid ""
+"As marcações dos painéis serão substituídas pelas restrições do computador \""
+msgstr "The settings in the panels will be overwritten by the ones in \""
+
+#: ../src/FrameController.cpp:809 ../src/FrameController.cpp:816
+msgid "\". Deseja continuar?"
+msgstr "\". Do you still want to continue?"
+
+#: ../src/FrameController.cpp:854 ../src/FrameController.cpp:861
+msgid "Interrompendo todas as tarefas..."
+msgstr "Stopping all tasks..."
+
+#: ../src/FrameController.cpp:856 ../src/FrameController.cpp:863
+msgid "Interrompendo tarefas dos agentes selecionados..."
+msgstr "Stopping tasks of the selected agents..."
+
+#: ../src/FrameController.cpp:889 ../src/FrameController.cpp:896
+#, c-format
+msgid "Tarefas restantes: %u"
+msgstr "Remaining tasks: %u"
+
+#: ../src/PanelLocking.cpp:31
+msgid ""
+"Use as opções abaixo para configurar o sistema de\n"
+"bloqueio do WinPolicy e programar os horários de bloqueio."
+msgstr ""
+"Use the options below to configure the WinPolicy\n"
+"locking system and to program locking times."
+
+#: ../src/PanelLocking.cpp:46
+msgid "Ativar o Autolock"
+msgstr "Activate AutoLock service"
+
+#: ../src/PanelLocking.cpp:47
+msgid "Solicitar senha para bloquear o computador pelo Autolock"
+msgstr "Ask password to lock the computer with AutoLock"
+
+#: ../src/PanelLocking.cpp:48
+msgid "Solicitar senha para desligar o computador quando bloqueado"
+msgstr "Ask password to shutdown the computer when it's locked"
+
+#: ../src/PanelLocking.cpp:49
+msgid "Desativar teclas do sistema (CTRL, ALT, TAB, WIN e ESC)"
+msgstr "Disable system keys (CTRL, ALT, TAB, WIN and ESC)"
+
+#: ../src/PanelLocking.cpp:50
+msgid "Bloquear automaticamente ao iniciar o Windows (95, 98 e Me)"
+msgstr "Lock automatically on Windows startup (95, 98 and Me)"
+
+#: ../src/PanelLocking.cpp:51
+msgid "Bloquear o computador após o logon"
+msgstr "Lock the computer after logon"
+
+#: ../src/PanelLocking.cpp:52
+msgid "Bloquear automaticamente nos horários abaixo:"
+msgstr "Lock automatically at the times below:"
+
+#: ../src/PanelLocking.cpp:55 ../src/PanelPrograms.cpp:56
+#: ../src/PanelUsers.cpp:65 ../src/PanelUsers.cpp:81
+msgid "Adicionar"
+msgstr "Add"
+
+#: ../src/PanelLocking.cpp:56 ../src/PanelPrograms.cpp:57
+#: ../src/PanelUsers.cpp:82
+msgid "Remover"
+msgstr "Remove"
+
+#: ../src/PanelLocking.cpp:179
+msgid "O horário digitado já está na lista."
+msgstr "The typed time is already in the list."
+
+#: ../src/PanelLocking.cpp:207 ../src/PanelUsers.cpp:406
+msgid ""
+"Por favor, selecione pelo menos um horário na lista antes de prosseguir."
+msgstr "Please, choose at least one time from the list before go on."
+
+#: ../src/PanelMisc.cpp:23
+msgid ""
+"Use as caixas abaixo para habilitar outras opções de\n"
+"restrição do WinPolicy."
+msgstr ""
+"Use the checkboxes below to enable other WinPolicy\n"
+"restrictions."
+
+#: ../src/PanelMisc.cpp:36
+msgid "Ocultar unidades de disco (digite as letras, ex.: ACDF)"
+msgstr "Hide disk drives (type the letters, ex.: ACDF)"
+
+#: ../src/PanelMisc.cpp:37
+msgid "Negar acesso à unidades de disco (Windows Me, 2000 e XP)"
+msgstr "Deny access to disk drives (Windows Me, 2000 and XP)"
+
+#: ../src/PanelMisc.cpp:38
+msgid "Apenas Windows 95 e 98:"
+msgstr "Windows 95 and 98 only"
+
+#: ../src/PanelMisc.cpp:41
+msgid "Apenas Windows 95, 98 e Me:"
+msgstr "Windows 95, 98 and Me only"
+
+#: ../src/PanelMisc.cpp:45
+msgid "Impedir a mudança da página inicial do Internet Explorer"
+msgstr "Restrict changes to Internet Explorer start page"
+
+#: ../src/PanelMisc.cpp:46
+msgid "Impedir a execução de programas baseados no MS-DOS"
+msgstr "Restrict running MS-DOS based programs"
+
+#: ../src/PanelMisc.cpp:47
+msgid "Impedir a reinicialização no modo MS-DOS"
+msgstr "Restrict the use of MS-DOS real mode"
+
+#: ../src/PanelMisc.cpp:48
+msgid "Impedir o menu das teclas F5 e F8 na inicialização"
+msgstr "Disable the F5 and F8 boot menus"
+
+#: ../src/PanelMisc.cpp:49
+msgid "Forçar o usuário a efetuar logon local"
+msgstr "Force the user to logon"
+
+#: ../src/PanelMisc.cpp:50
+msgid "Requerer senha de rede válida para acessar o Windows"
+msgstr "Force a valid network password to logon into Windows"
+
+#: ../src/PanelNetwork.cpp:28
+msgid ""
+"Use as opções abaixo para gerenciar as restrições ao\n"
+"acesso das propriedades da rede do Windows."
+msgstr ""
+"Use the options below to manage the Windows network\n"
+"restrictions."
+
+#: ../src/PanelNetwork.cpp:30
+msgid "Comprimento mínimo das senhas:"
+msgstr "Passwords minimum lenght:"
+
+#: ../src/PanelNetwork.cpp:31
+msgid "caracteres."
+msgstr "characters."
+
+#: ../src/PanelNetwork.cpp:46 ../src/PanelSystem.cpp:43
+#: ../src/PanelWindows.cpp:42
+msgid "Marcar todos"
+msgstr "Check all"
+
+#: ../src/PanelNetwork.cpp:47 ../src/PanelSystem.cpp:44
+#: ../src/PanelWindows.cpp:43
+msgid "Desmarcar todos"
+msgstr "Uncheck all"
+
+#: ../src/PanelPrograms.cpp:38
+msgid ""
+"Use as opções abaixo para especificar quais programas\n"
+"poderão ser executados pelo Windows. Essas\n"
+"configurações só fazem efeito no usuário que está\n"
+"logado no momento."
+msgstr ""
+"Use the options below to specify which programs\n"
+"will be allowed to run."
+
+#: ../src/PanelPrograms.cpp:54
+msgid "Bloquear todos os programas, exceto os listados abaixo:"
+msgstr "Disallow all programs, except the ones below:"
+
+#: ../src/PanelPrograms.cpp:59
+msgid "Procurar"
+msgstr "Search"
+
+#: ../src/PanelPrograms.cpp:130
+msgid "\" já existe na lista."
+msgstr "\" is already in the list."
+
+#: ../src/PanelPrograms.cpp:130
+msgid "O aplicativo \""
+msgstr "The program \""
+
+#: ../src/PanelPrograms.cpp:143
+msgid ""
+"Digite o nome de um executável na caixa de texto ao lado ou clique no botão "
+"\"Procurar\" para navegar nas pastas dos seus discos rígidos."
+msgstr ""
+"Type the name of an executable in the text box or click on the \"Search\" "
+"button to navigate through the folders of your hard drives."
+
+#: ../src/PanelPrograms.cpp:160
+msgid ""
+"Por favor, selecione pelo menos um programa na lista antes de prosseguir."
+msgstr "Please, choose at least one program from the list before go on."
+
+#: ../src/PanelPrograms.cpp:168
+msgid "\" não pode ser removido por um aplicativo do WinPolicy."
+msgstr "\" can't be removed because it is an WinPolicy executable."
+
+#: ../src/PanelPrograms.cpp:168
+msgid "O executável \""
+msgstr "The executable \""
+
+#: ../src/PanelPrograms.cpp:178
+msgid "Bloquear programa"
+msgstr "Allow program"
+
+#: ../src/PanelPrograms.cpp:179
+msgid ""
+"Todos os tipos válidos (*.exe; *.com; *.bat; *.pif)|*.exe; *.com; *.bat; *."
+"pif|Todos os arquivos (*.*)|*.*"
+msgstr ""
+"All valid types (*.exe; *.com; *.bat; *.pif)|*.exe; *.com; *.bat; *.pif|All "
+"types (*.*)|*.*"
+
+#: ../src/PanelSystem.cpp:28
+msgid ""
+"Use as opções abaixo para gerenciar as restrições gerais do\n"
+"sistema Windows."
+msgstr "Use the options below to manage Windows general restrictions."
+
+#: ../src/PanelUsers.cpp:50
+msgid ""
+"Use esta janela para configurar os usuários que poderão\n"
+"desbloquear o computador para utilizá-lo. Você também\n"
+"pode especificar os horários em que o computador poderá\n"
+"ser utilizado por eles."
+msgstr ""
+"Use this window to manage the users which will be allowed\n"
+"to unlock the computer and use it. You can also specify\n"
+"the times at which the computer can be used by them."
+
+#: ../src/PanelUsers.cpp:54
+msgid "Novo usuário:"
+msgstr "New user:"
+
+#: ../src/PanelUsers.cpp:55
+msgid "Usuário:"
+msgstr "User:"
+
+#: ../src/PanelUsers.cpp:56
+msgid "Adicionar horário"
+msgstr "Add time"
+
+#: ../src/PanelUsers.cpp:57
+msgid "Dias da semana:"
+msgstr "Days of the week:"
+
+#: ../src/PanelUsers.cpp:58
+msgid "Horário (hh:mm):"
+msgstr "Time (hh:mm)"
+
+#: ../src/PanelUsers.cpp:59
+msgid "Horários permitidos:"
+msgstr "Allowed times:"
+
+#: ../src/PanelUsers.cpp:60
+msgid "De:"
+msgstr "From:"
+
+#: ../src/PanelUsers.cpp:61
+msgid "até:"
+msgstr "until:"
+
+#: ../src/PanelUsers.cpp:68
+msgid "Excluir"
+msgstr "Delete"
+
+#: ../src/PanelUsers.cpp:69
+msgid "Dom"
+msgstr "Sun"
+
+#: ../src/PanelUsers.cpp:70
+msgid "Seg"
+msgstr "Mon"
+
+#: ../src/PanelUsers.cpp:71
+msgid "Ter"
+msgstr "Tue"
+
+#: ../src/PanelUsers.cpp:72
+msgid "Qua"
+msgstr "Wed"
+
+#: ../src/PanelUsers.cpp:73
+msgid "Qui"
+msgstr "Thu"
+
+#: ../src/PanelUsers.cpp:74
+msgid "Sex"
+msgstr "Fri"
+
+#: ../src/PanelUsers.cpp:75
+msgid "Sáb"
+msgstr "Sat"
+
+#: ../src/PanelUsers.cpp:83
+msgid "Este usuário pode desligar o computador"
+msgstr "This user is allowed to shutdown the computer"
+
+#: ../src/PanelUsers.cpp:243
+msgid "Por favor, digite um nome de usuário na caixa ao lado."
+msgstr "Please, type a username in the textbox beside."
+
+#: ../src/PanelUsers.cpp:252
+msgid "Este usuário já existe."
+msgstr "This user already exists."
+
+#: ../src/PanelUsers.cpp:270 ../src/PanelUsers.cpp:299
+msgid "Por favor, selecione um usuário na lista ao lado."
+msgstr "Plase, choose an user from the list beside."
+
+#: ../src/PanelUsers.cpp:274
+msgid "\"?"
+msgstr "\"?"
+
+#: ../src/PanelUsers.cpp:274
+msgid "Tem certeza que deseja excluir o usuário \""
+msgstr "Are you sure you want to remove the user \""
+
+#: ../src/PanelUsers.cpp:303
+msgid "\":"
+msgstr "\":"
+
+#: ../src/PanelUsers.cpp:303
+msgid "Digite uma senha para o usuário \""
+msgstr "Type a password for the user \""
+
+#: ../src/PanelUsers.cpp:304
+msgid "Repita a senha do usuário:"
+msgstr "Confirm the password for the user:"
+
+#: ../src/PanelUsers.cpp:308
+msgid "As senhas digitadas não coincidem. Tente novamente."
+msgstr "The passwords you typed aren't equal. Try again."
+
+#: ../src/PanelUsers.cpp:332
+msgid ""
+"Por favor, selecione um usuário na lista de usuários antes de prosseguir."
+msgstr "Please, choose an user from the users list before go on."
+
+#: ../src/PanelUsers.cpp:343
+msgid ""
+"Você digitou um horário inválido. Verifique os números e tente novamente."
+msgstr "You type an invalid time. Check the numbers and try again."
+
+#: ../src/PanelUsers.cpp:357
+msgid "O horário final não pode ser igual ou inferior ao horário de início."
+msgstr "The final time can't be equal or less than the starting time."
+
+#: ../src/PanelUsers.cpp:374
+msgid "Você não selecionou um dia da semana para o usuário."
+msgstr "You didn't choose at least one day of the week for this user."
+
+#: ../src/PanelUsers.cpp:394
+msgid "Por favor, selecione um usuário antes de prosseguir."
+msgstr "Please, choose an user before go on."
+
+#: ../src/PanelWindows.cpp:27
+msgid ""
+"Use as opções abaixo para gerenciar as restrições do\n"
+"Windows Explorer e do Menu Iniciar do Windows."
+msgstr ""
+"Use the options below to manage the Windows Explorer\n"
+"and Start Menu restrictions."

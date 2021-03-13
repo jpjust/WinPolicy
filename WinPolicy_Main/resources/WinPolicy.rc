@@ -1,0 +1,7 @@
+#include "wx/msw/wx.rc"
+#include "VersionInfo.rc"
+
+wxDEFAULT_FRAME		ICON	DISCARDABLE "../resources/images/winpolicy.ico"
+wxICON				ICON	DISCARDABLE "../resources/images/winpolicy.ico"
+
+CUR_HAND			CURSOR	DISCARDABLE "../resources/images/hand.cur"

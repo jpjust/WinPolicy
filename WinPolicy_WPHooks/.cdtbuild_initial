@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="WPHooks.cdt.managedbuild.target.gnu.cygwin.so.737809217" name="Shared Library (Gnu on Windows)" projectType="cdt.managedbuild.target.gnu.cygwin.so">
+<configuration artifactExtension="dll" artifactName="WPHooks" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.cygwin.so.debug.1821744684" name="Release" parent="cdt.managedbuild.config.gnu.cygwin.so.debug" prebuildStep="">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.so.debug.258462307" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.cygwin.so.debug">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.so.debug.1013820345" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.so.debug">
+<option id="gnu.c.compiler.cygwin.so.debug.option.optimization.level.2093204044" superClass="gnu.c.compiler.cygwin.so.debug.option.optimization.level" value="gnu.c.optimization.level.most" valueType="enumerated"/>
+<option id="gnu.c.compiler.option.optimization.flags.1502669855" superClass="gnu.c.compiler.option.optimization.flags" value="-march=i586 -mtune=i686" valueType="string"/>
+<option id="gnu.c.compiler.cygwin.so.debug.option.debugging.level.140434842" superClass="gnu.c.compiler.cygwin.so.debug.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+</tool>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.so.debug.2135031454" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.so.debug"/>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.cygwin.so.debug.1781651043" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.so.debug">
+<option id="gnu.c.link.option.userobjs.1704727227" superClass="gnu.c.link.option.userobjs"/>
+</tool>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.so.debug.908504043" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.so.debug"/>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.cygwin.so.debug.1912490234" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.so.debug"/>
+<macros/>
+</toolChain>
+</configuration>
+</project>
+</ManagedProjectBuildInfo>

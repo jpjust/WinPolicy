@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.0.0?>
+
+<ManagedProjectBuildInfo>
+<project id="WPSSaver.cdt.managedbuild.target.gnu.cygwin.exe.1124544876" name="Executable (Gnu on Windows)" projectType="cdt.managedbuild.target.gnu.cygwin.exe">
+<configuration artifactExtension="scr" artifactName="WinPolicy" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.1563734902" name="Release" parent="cdt.managedbuild.config.gnu.cygwin.exe.debug" prebuildStep="windres -o WPSSaverRes.o ../WPSSaver.rc -Ic:/wxMSW-2.6/include/wx-2.6">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug.73092940" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.582483711" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.516265913" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug">
+<option id="gnu.cpp.compiler.option.preprocessor.def.426809467" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="__WXMSW__"/>
+<listOptionValue builtIn="false" value="WXUSINGDLL=1"/>
+<listOptionValue builtIn="false" value="NO_GCC_PRAGMA"/>
+</option>
+<option id="gnu.cpp.compiler.option.include.paths.164714427" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.6/lib/wx/include/msw-ansi-release-2.6"/>
+<listOptionValue builtIn="false" value="c:/wxMSW-2.6/include/wx-2.6"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/include"/>
+</option>
+<option id="gnu.cpp.compiler.option.other.other.210655799" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -mthreads" valueType="string"/>
+<option id="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level.666428680" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+<option id="gnu.cpp.compiler.option.optimization.flags.1433374861" superClass="gnu.cpp.compiler.option.optimization.flags" value="-march=i586 -mtune=i686" valueType="string"/>
+<option id="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level.489745893" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+</tool>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.694130367" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.1031678318" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug">
+<option id="gnu.cpp.link.option.libs.1221795861" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="wx_base-2.6"/>
+<listOptionValue builtIn="false" value="wx_msw_core-2.6"/>
+<listOptionValue builtIn="false" value="userenv"/>
+</option>
+<option id="gnu.cpp.link.option.paths.1992711564" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.6/lib"/>
+</option>
+<option id="gnu.cpp.link.option.flags.604399484" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-mthreads  -Wl,--subsystem,windows -mwindows" valueType="string"/>
+<option id="gnu.cpp.link.option.userobjs.489040915" name="Other objects" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
+<listOptionValue builtIn="false" value="WPSSaverRes.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/jswinreg.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/AppBase.o"/>
+</option>
+</tool>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.1112003542" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug"/>
+<macros/>
+</toolChain>
+</configuration>
+</project>
+</ManagedProjectBuildInfo>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="NetModule.cdt.managedbuild.target.gnu.cygwin.exe.246707615" name="Executable (Gnu on Windows)" projectType="cdt.managedbuild.target.gnu.cygwin.exe">
+<configuration artifactExtension="exe" artifactName="NetModule" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.658031583" name="Release" parent="cdt.managedbuild.config.gnu.cygwin.exe.debug" prebuildStep="windres -o NetModuleRes.o ../NetModule.rc -I&quot;C:\wxMSW-2.8\include\wx-2.8&quot;">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug.1687796125" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.317087556" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.280513511" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug">
+<option id="gnu.cpp.compiler.option.preprocessor.def.1785693163" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="__WXMSW__"/>
+<listOptionValue builtIn="false" value="WXUSINGDLL=1"/>
+</option>
+<option id="gnu.cpp.compiler.option.include.paths.13685761" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.8/lib/wx/include/msw-ansi-release-2.8"/>
+<listOptionValue builtIn="false" value="c:/wxMSW-2.8/include/wx-2.8"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/include"/>
+<listOptionValue builtIn="false" value="../../Controller/include"/>
+<listOptionValue builtIn="false" value="../../WPNP"/>
+</option>
+<option id="gnu.cpp.compiler.option.other.other.971091729" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -mthreads" valueType="string"/>
+<option id="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level.1770414465" name="Optimization Level" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+<option id="gnu.cpp.compiler.option.optimization.flags.1338287866" name="Other optimization flags" superClass="gnu.cpp.compiler.option.optimization.flags" value="-march=i586 -mtune=i686" valueType="string"/>
+<option id="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level.561296109" name="Debug Level" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+</tool>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.2039135746" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.780024583" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug">
+<option id="gnu.cpp.link.option.libs.999299568" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="rsatool"/>
+<listOptionValue builtIn="false" value="iphlpapi"/>
+<listOptionValue builtIn="false" value="WPNP"/>
+<listOptionValue builtIn="false" value="wx_base-2.8"/>
+<listOptionValue builtIn="false" value="wx_base_net-2.8"/>
+<listOptionValue builtIn="false" value="wx_msw_core-2.8"/>
+</option>
+<option id="gnu.cpp.link.option.paths.1099900674" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.8/lib"/>
+<listOptionValue builtIn="false" value="../../WPNP/Release_Win32"/>
+</option>
+<option id="gnu.cpp.link.option.flags.1464187388" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-mthreads  -Wl,--subsystem,windows -mwindows" valueType="string"/>
+<option id="gnu.cpp.link.option.userobjs.1306394043" name="Other objects" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
+<listOptionValue builtIn="false" value="NetModuleRes.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/jswinreg.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/AppBase.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/PwdMgr.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/UserMgr.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/Tweaks.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksAutoLock.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksMisc.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksNetwork.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksPrograms.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksSystem.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Release/src/TweaksWindows.o"/>
+</option>
+</tool>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.1657249817" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug"/>
+<macros/>
+</toolChain>
+<resourceConfiguration exclude="true" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.658031583.1649400899" name="NetModule.rc" rcbsApplicability="disable" resourcePath="/NetModule/NetModule.rc" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.236387282.1054658372">
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.236387282.1054658372" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.280513511"/>
+</resourceConfiguration>
+</configuration>
+<configuration artifactExtension="exe" artifactName="NetModule" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.708374896" name="Debug" parent="cdt.managedbuild.config.gnu.cygwin.exe.debug" prebuildStep="windres -o NetModuleRes.o ../NetModule.rc -I&quot;C:\wxMSW-2.6\include\wx-2.6&quot;">
+<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug.755816728" name="GCC Tool Chain" superClass="cdt.managedbuild.toolchain.gnu.cygwin.exe.debug">
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.65182787" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.760141176" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug">
+<option id="gnu.cpp.compiler.option.preprocessor.def.436666190" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="_NETMODULE_DEBUG_"/>
+<listOptionValue builtIn="false" value="__WXMSW__"/>
+<listOptionValue builtIn="false" value="WXUSINGDLL=1"/>
+<listOptionValue builtIn="false" value="NO_GCC_PRAGMA"/>
+</option>
+<option id="gnu.cpp.compiler.option.include.paths.749712679" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.6/lib/wx/include/msw-ansi-release-2.6"/>
+<listOptionValue builtIn="false" value="c:/wxMSW-2.6/include/wx-2.6"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/include"/>
+<listOptionValue builtIn="false" value="../../WPNP"/>
+</option>
+<option id="gnu.cpp.compiler.option.other.other.931006984" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -mthreads" valueType="string"/>
+<option id="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level.1796856396" name="Optimization Level" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+<option id="gnu.cpp.compiler.option.optimization.flags.106559557" name="Other optimization flags" superClass="gnu.cpp.compiler.option.optimization.flags" value="" valueType="string"/>
+<option id="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level.1342438476" name="Debug Level" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.default" valueType="enumerated"/>
+</tool>
+<tool command="gcc" id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.230010045" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug"/>
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.1975336863" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug">
+<option id="gnu.cpp.link.option.libs.270163585" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+<listOptionValue builtIn="false" value="rsatool"/>
+<listOptionValue builtIn="false" value="iphlpapi"/>
+<listOptionValue builtIn="false" value="WPNP"/>
+<listOptionValue builtIn="false" value="wx_base-2.6"/>
+<listOptionValue builtIn="false" value="wx_base_net-2.6"/>
+<listOptionValue builtIn="false" value="wx_msw_core-2.6"/>
+</option>
+<option id="gnu.cpp.link.option.paths.1427981010" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="stringList">
+<listOptionValue builtIn="false" value="c:/wxMSW-2.6/lib"/>
+<listOptionValue builtIn="false" value="../../WPNP/Debug_Win32"/>
+</option>
+<option id="gnu.cpp.link.option.flags.57555302" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-mthreads  -Wl,--subsystem,windows -mwindows" valueType="string"/>
+<option id="gnu.cpp.link.option.userobjs.2126373083" name="Other objects" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
+<listOptionValue builtIn="false" value="NetModuleRes.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Debug/src/jswinreg.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Debug/src/AppBase.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Debug/src/PwdMgr.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Debug/src/UserMgr.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Debug/src/Tweaks.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Debug/src/TweaksAutoLock.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Debug/src/TweaksMisc.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Debug/src/TweaksNetwork.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Debug/src/TweaksPrograms.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Debug/src/TweaksSystem.o"/>
+<listOptionValue builtIn="false" value="../../WinPolicy/Debug/src/TweaksWindows.o"/>
+</option>
+</tool>
+<tool command="as" id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.1569278793" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug"/>
+<macros/>
+</toolChain>
+<resourceConfiguration exclude="true" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.708374896.495561863" name="NetModule.rc" rcbsApplicability="disable" resourcePath="/NetModule/NetModule.rc" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.280513511.1463815577">
+<tool command="g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.280513511.1463815577" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.760141176"/>
+</resourceConfiguration>
+</configuration>
+</project>
+</ManagedProjectBuildInfo>

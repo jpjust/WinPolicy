@@ -1,0 +1,10 @@
+#include <wx/msw/wx.rc>
+#include "../WinPolicy/resources/VersionInfo.rc"
+
+// Icons
+wxDEFAULT_FRAME	ICON	"../../WinPolicy/resources/images/winpolicy.ico"
+wxICON			ICON	"../../WinPolicy/resources/images/winpolicy.ico"
+
+// Bitmaps
+IMG_TITLE		BITMAP	"../../WinPolicy/resources/images/bitmap/title.bmp"
+IMG_SECURITY	BITMAP	"../../WinPolicy/resources/images/bitmap/security.bmp"

@@ -1,0 +1,39 @@
+/*
+	WinPolicy Help - Stylesheet
+	Copyright (c) 2005 Justsoft Informática e Publicidades Ltda.
+	Todos os direitos reservados.
+
+	http://www.justsoft.com.br/
+*/
+
+a:active {
+	color: #0064C8;
+	text-decoration: none;
+}
+a:link {
+	color: #003264;
+	text-decoration: none;
+}
+a:visited {
+	color: #003264;
+	text-decoration: none;
+}
+body {
+	/* margin: 0pt 0pt 0pt 0pt; */
+	background-color: #FFFFFF;
+	font-family: arial, helvetica, sans-serif;
+	font-size: medium;
+}
+h1 {
+	font-size: 16pt;
+	font-family: arial, helvetica, sans-serif;
+	color: #0064C8;
+}
+h2 {
+	font-size: 14pt;
+	font-family: arial, helvetica, sans-serif;
+}
+p {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12pt;
+}

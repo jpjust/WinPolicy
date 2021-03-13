@@ -1,0 +1,5 @@
+#include <wx/msw/wx.rc>
+#include "../WinPolicy/resources/VersionInfo.rc"
+
+wxDEFAULT_FRAME		ICON	"../../WinPolicy/resources/images/winpolicy.ico"
+wxICON				ICON	"../../WinPolicy/resources/images/winpolicy.ico"
